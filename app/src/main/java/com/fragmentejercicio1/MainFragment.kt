@@ -56,8 +56,11 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         //Guarda el fragment en una variable
         val fragment = DetailFragment()
 
+
+
         //Carga el fragment en la activity
         parentFragmentManager.beginTransaction()//Carga una operacion
+            .setCustomAnimations(R.anim.slide_right_in, R.anim.slide_left_out, R.anim.slide_left_in, R.anim.slide_right_out)//Añadimos animaciones para la transicion entre fragments
             .replace(R.id.fragment_container_view, fragment)//Reemplaza lo que haya en el container de los fragments por el fragment que guarda en la variable
             .setReorderingAllowed(true)//Para garantizar un funcionamiento correcto de las animaciones transiciones etc
             .addToBackStack(null)//Indica el origen de la pila
