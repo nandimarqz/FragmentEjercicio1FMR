@@ -1,4 +1,4 @@
-package com.fragmentejercicio1
+package com.fernandoMarquezRodriguez.ejercicio1Fragments
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

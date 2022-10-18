@@ -1,4 +1,4 @@
-package com.fragmentejercicio1
+package com.fernandoMarquezRodriguez.ejercicio1Fragments
 
 import android.content.Intent
 import android.net.Uri
@@ -7,8 +7,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
+import com.fragmentejercicio1.R
 import com.fragmentejercicio1.databinding.FragmentDetailBinding
-
 
 
 class DetailFragment : Fragment(R.layout.fragment_detail) {
